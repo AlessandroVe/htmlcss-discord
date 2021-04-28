@@ -5,10 +5,16 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+.conteiner{
+    max-width: 1200px;
+    height: 900px;
+    position: relative;
+    margin: 0 auto;
+}
+
 /*  */
 /* HEADER */
 header{
-   border: 1px solid black;
    height: 600px;
    background-image: url(../img/jumbo.png);
    background-size: cover;
@@ -37,6 +43,7 @@ header{
 }
 #login{
     float:right;
+    font-weight: 700;
 }
 #login a{
    color: black;
@@ -78,8 +85,114 @@ color: white;
 }
 #header-conteiner-top div:nth-child(3)>input[type="button"]{
     font-size: 20px;
-    margin: 25px;
-
-
+    margin: 20px;
+    padding: 15px;
+    font-weight: 700;
+    border-radius: 30px;
+}
+#header-conteiner-top div:nth-child(3)>input[type="button"]+input[type="button"]{
+    background-color: black;
+    color: white;
 }
 /*  */
+/* CONTEINER1 */
+#conteiner-img1{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+#conteiner-img1+div{
+    width: 40%;
+    font-size: 20px;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translate(0,-50%);
+}
+.conteiner>div>p{
+    color: rgb(90,90,90);
+    font-weight: 700;
+    width: 65%;
+    margin-top: 20px;
+}
+/*  */
+/* CONTEINER 2 */
+#conteiner-img2{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translate(0,-50%);
+}
+#conteiner-img2+div{
+    padding-left: 100px;
+    width: 40%;
+    font-size: 20px;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translate(0,-50%);
+}
+/*  */
+/* CONTEINER 3 */
+#conteiner-img3{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+#conteiner-img3+div{
+    width: 40%;
+    font-size: 20px;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translate(0,-50%);
+}
+/*  */
+/* CONTEINER 4 */
+.conteiner4{
+    text-align: center;
+}
+.conteiner4>main{
+    margin: 0px auto; 
+}
+.conteiner4 h1 {
+    font-size: 50px;
+}
+.conteiner4 p{
+    margin-top: 25px;
+    font-size: 25px;
+}
+#download-zone{
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    background-position:center;
+    width: 40%;
+    margin: auto;
+}
+#download-zone>h1{
+    margin:30px 0px 30px 0px;
+    font-size: 30px;
+}
+#download-zone>input[type="button"]{
+    padding: 10px;
+    background-color: rgba(84, 6, 228,.5);
+    color: white;
+    border: none;
+    font-size: 25px;
+    border-radius: 25px;
+}
+/*  */
+/* FOOTER */
+footer{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(84, 6, 228); 
+}
+/*  */
+
