@@ -196,14 +196,31 @@ footer{
     height: 700px;
     background-color: rgb(23, 21, 27); 
     padding: 100px;
+    color:rgb(84, 6, 228);
 }
 footer main:nth-child(1){
     width: 30%;
     height:100%;
-    background-color: white;
 }
-hr{
-    margin-top: 20px;
+footer main:nth-child(1) h1{
+    font-size: 45px;
+    margin-bottom: 30px;
 }
+footer main:nth-child(1) img{
+    width: 25px;
+    height: 20px;
+}
+footer main:nth-child(1) select{
+    border: none ;
+    position: relative;
+    bottom: 5px;
+    font-size: 15px;   
+    margin-bottom: 30px;
+}
+footer main:nth-child(1) br~img{
+ width: 50px;
+ height: 30px;
+}
+
 /*  */
 
