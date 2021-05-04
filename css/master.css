@@ -14,6 +14,7 @@
 .conteiner1 img,.conteiner2 img,.conteiner3 img{
     width: 100%;
 }
+
 /*  */
 /* HEADER */
 header{
@@ -101,6 +102,10 @@ header{
 .wave>svg path{
       fill: rgb(238, 238, 238);
 }
+.wave>svg{
+    position: relative;
+    top: 4px;
+}
 #conteiner-img1{
     width: 60%;
     position: absolute;
@@ -129,7 +134,10 @@ header{
 }
 #wave-rotation>svg path{
     fill: white;
-    border: none;
+}
+#wave-rotation>svg{
+    position: relative;
+    top: 4px;
 }
 #conteiner-img2{
     width: 60%;
@@ -165,10 +173,15 @@ header{
     right: 0px;
     transform: translate(0,-50%);
 }
+.conteiner3+svg{
+    position: relative;
+    top: 4px;
+}
 /*  */
 /* CONTEINER 4 */
 .wave2{
     background-color: rgb(238, 238, 238);
+    height: 1300px;
 }
 .conteiner4{
     text-align: center;
