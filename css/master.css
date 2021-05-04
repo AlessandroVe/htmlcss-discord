@@ -17,10 +17,10 @@
 /*  */
 /* HEADER */
 header{
-   height: 600px;
-   background-image: url(../img/jumbo.png);
-   background-size: cover;
-   position: relative;
+    height: 600px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    position: relative;
 }
 /*  */
 /* HEADER//// NAV-TOP-PAGE/ */
@@ -48,11 +48,11 @@ header{
     font-weight: 700;
 }
 #login a{
-   color: black;
-   text-decoration: none;
-   background-color: white;
-   padding: 10px;
-   border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
 }
 #menu-nav{
     max-width: 570px;
@@ -66,14 +66,14 @@ header{
 /*  */
 /* HEADER//// /header-conteiner-top*/
 #header-conteiner-top{
-width: 800px;
-height: 300px;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
-text-align: center;
-color: white;
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
 }
 #header-conteiner-top div:nth-child(1){
     height: 50%;
@@ -98,6 +98,9 @@ color: white;
 }
 /*  */
 /* CONTEINER1 */
+.wave>svg path{
+      fill: rgb(238, 238, 238);
+}
 #conteiner-img1{
     width: 60%;
     position: absolute;
@@ -121,6 +124,13 @@ color: white;
 }
 /*  */
 /* CONTEINER 2 */
+#wave-rotation{
+    background-color: rgb(238, 238, 238);
+}
+#wave-rotation>svg path{
+    fill: white;
+    border: none;
+}
 #conteiner-img2{
     width: 60%;
     position: absolute;
@@ -157,6 +167,9 @@ color: white;
 }
 /*  */
 /* CONTEINER 4 */
+.wave2{
+    background-color: rgb(238, 238, 238);
+}
 .conteiner4{
     text-align: center;
 }
